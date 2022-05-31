@@ -17,14 +17,17 @@ I trained the model using the train data set and the new glm model. If the proba
 I made confusion matrix to get Accuracy, sensitivity, and specificity values. The accuracy is 0.87, sensitivity is 0.89, and specifity is 0.83.
 I also did it to my test data set. Accuracy, sensitivity and specificity are decreased a little but it has high scores.
 I made a roc curve .The area under the curve(AUC) shows 0.929. This model can have both high specificity and sensitivity. 
+![스크린샷 2022-05-30 오후 9 34 42](https://user-images.githubusercontent.com/41169144/171075792-a093943a-8969-41c4-86b9-27f928431fde.png)
 i can say this model is a good model which has high AUC score.
 I made R^2 of the model. McFadden value is 0.539 so the model explains 53.9% of the situation.
 I plotted using peason method. The values are overally evenly distributed around the 0 line.
 I plotted the residuals using deviance method. The values are also around the 0 line.
 I plotted the leverage using hatvalue function. It shows some of outliers in this function.
+![스크린샷 2022-05-30 오후 9 34 57](https://user-images.githubusercontent.com/41169144/171075834-3bf387ea-dd96-4b75-92bc-f3f70378d7e2.png)
 I plotted the studentized residuals and there seems no outliers in this funciton.
 I plottd the cook’s distance and there seems no outliers in this funciton.
 I predicted a man who has NAP chestpanitype,150 cholesterol value, has Fasting BS, has exerciseangina, has 1.5 oldpeak and st slope is up. 
+![스크린샷 2022-05-30 오후 9 35 20](https://user-images.githubusercontent.com/41169144/171075854-e4d8fe27-dfa1-4ad5-a5ed-16b60672ef25.png)
 The probability of this man has heart disease is 0.470.
 
 Conclusion
